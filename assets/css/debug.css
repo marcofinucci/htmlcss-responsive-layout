@@ -45,4 +45,20 @@
         height: 550px;
     }
 
+    /* Testimonial */
+
+    .testimonial__title {
+        background-color: red;
+        height: 200px;
+    }
+
+    .testimonial__card-avatar {
+        background-color: red;
+    }
+
+    .testimonial__card-text {
+        background-color: yellow;
+        height: 200px;
+    }
+
 }
