@@ -4,25 +4,25 @@
 
     /* Side header */
 
-    & .site-header__logo {
+    .site-header__logo {
         background-color: red;
         width: 80;
         aspect-ratio: 80 / 40;
     }
 
-    & .site-header__menu {
+    .site-header__menu {
         background-color: red;
         width: 550px;
         height: 100%;
     }
 
-    & .site-header__cta {
+    .site-header__cta {
         background-color: green;
         width: 100px;
         height: 100%;
     }
 
-    & .site-header__menu-button {
+    .site-header__menu-button {
         background-color: yellow;
         width: 40px;
         height: 40px;
