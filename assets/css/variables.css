@@ -1,6 +1,7 @@
 :root {
     /* Gutter */
-    --gutter: 0.5rem;
+    --gutter-x: var(--space-5);
+    --gutter-y: 0;
 
     /* Colors */
     --color-extralight: #ffffff;
@@ -23,14 +24,19 @@
     --line-base: 1.45;
 
     /* Spaces */
-    --space-4: 0.25rem;
-    --space-8: 0.5rem;
-    --space-12: 0.75rem;
-    --space-16: 1rem;
-    --space-24: 1.5rem;
-    --space-32: 2rem;
-    --space-48: 3rem;
-    --space-64: 4rem;
-    --space-80: 5rem;
-    --space-96: 6rem;
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.5rem;
+    --space-6: 2rem;
+    --space-7: 3rem;
+    --space-8: 4rem;
+    --space-9: 5rem;
+    --space-10: 6rem;
+
+    /* Border radius */
+
+    --radius-1: 16px;
+    --radius-2: 32px;
 }

@@ -38,7 +38,7 @@ h6 {
 }
 
 p {
-    margin-bottom: var(--space-16);
+    margin-bottom: var(--space-4);
 
     &:last-child {
         margin-bottom: 0;

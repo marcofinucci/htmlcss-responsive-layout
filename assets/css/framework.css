@@ -1,7 +1,8 @@
 /* Layout */
 
 .container {
-    padding: 0 var(--gutter);
+    padding-left: var(--gutter-x);
+    padding-right: var(--gutter-x);
     max-width: 1180px;
     margin: 0 auto;
 }
@@ -9,11 +10,17 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 calc(-1 * var(--gutter));
+    margin-top: calc(-0.5 * var(--gutter-y));
+    margin-right: calc(-0.5 * var(--gutter-x));
+    margin-left: calc(-0.5 * var(--gutter-x));
 }
 
-[class^="col"] {
-    padding: 0 var(--gutter);
+.row>* {
+    padding-right: calc(0.5 * var(--gutter-x));
+    padding-left: calc(0.5 * var(--gutter-x));
+    width: 100%;
+    position: relative;
+    margin-top: var(--gutter-y);
 }
 
 .col-auto {
@@ -86,6 +93,34 @@
 .col-12 {
     flex: 0 0 calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
+}
+
+/* Gutter */
+
+.g-5 {
+    --gutter-y: var(--space-5);
+    --gutter-x: var(--space-5);
+}
+
+.gy-5 {
+    --gutter-y: var(--space-5);
+}
+
+.gx-5 {
+    --gutter-x: var(--space-5);
+}
+
+.g-6 {
+    --gutter-y: var(--space-6);
+    --gutter-x: var(--space-6);
+}
+
+.gy-6 {
+    --gutter-y: var(--space-6);
+}
+
+.gx-6 {
+    --gutter-x: var(--space-6);
 }
 
 /* Display */
@@ -206,6 +241,34 @@
     .col-md-12 {
         flex: 0 0 calc((100% / 12) * 12);
         max-width: calc((100% / 12) * 12);
+    }
+
+    /* Gutter */
+
+    .g-md-5 {
+        --gutter-y: var(--space-5);
+        --gutter-x: var(--space-5);
+    }
+
+    .gy-md-5 {
+        --gutter-y: var(--space-5);
+    }
+
+    .gx-md-5 {
+        --gutter-x: var(--space-5);
+    }
+
+    .g-md-6 {
+        --gutter-y: var(--space-6);
+        --gutter-x: var(--space-6);
+    }
+
+    .gy-md-6 {
+        --gutter-y: var(--space-6);
+    }
+
+    .gx-md-6 {
+        --gutter-x: var(--space-6);
     }
 
     /* Display */
@@ -331,6 +394,34 @@
         max-width: calc((100% / 12) * 12);
     }
 
+    /* Gutter */
+
+    .g-xl-5 {
+        --gutter-y: var(--space-5);
+        --gutter-x: var(--space-5);
+    }
+
+    .gy-xl-5 {
+        --gutter-y: var(--space-5);
+    }
+
+    .gx-xl-5 {
+        --gutter-x: var(--space-5);
+    }
+
+    xl- .g-xl-6 {
+        --gutter-y: var(--space-6);
+        --gutter-x: var(--space-6);
+    }
+
+    .gy-xl-6 {
+        --gutter-y: var(--space-6);
+    }
+
+    .gx-xl-6 {
+        --gutter-x: var(--space-6);
+    }
+
     /* Display */
 
     .d-xl-flex {
@@ -348,7 +439,7 @@
     /* Flex wrapping */
 
     .flex-xl-wrap {
-        flex-wrap: wrap;
+        spac flex-wrap: wrap;
     }
 
     .flex-xl-nowrap {
