@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typograpy */
+
+body,
+p {
+    line-height: var(--line-base);
+    font-size: var(--font-base);
+    color: var(--color-extradark);
+}
+
+h1 {
+    font-size: var(--font-1);
+}
+
+h2 {
+    font-size: var(--font-2);
+}
+
+h3 {
+    font-size: var(--font-3);
+}
+
+h4 {
+    font-size: var(--font-4);
+}
+
+h5 {
+    font-size: var(--font-5);
+}
+
+h6 {
+    font-size: var(--font-6);
+}
+
+p {
+    margin-bottom: var(--space-16);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* Media */
+
+svg,
+img,
+embed,
+object {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}

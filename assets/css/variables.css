@@ -1,0 +1,36 @@
+:root {
+    /* Gutter */
+    --gutter: 0.5rem;
+
+    /* Colors */
+    --color-extralight: #ffffff;
+    --color-light: #b5ddff;
+    --color-medium: #9792e4;
+    --color-extradark: #222222;
+    --color-accent1: #0084fd;
+    --color-accent2: #fdc15f;
+
+    /* Fonts size */
+    --font-1: 2.488rem;
+    --font-2: 2.074rem;
+    --font-3: 1.728rem;
+    --font-4: 1.2rem;
+    --font-5: 0.833rem;
+    --font-6: 0.694rem;
+    --font-base: 1rem;
+
+    /* Line height */
+    --line-base: 1.45;
+
+    /* Spaces */
+    --space-4: 0.25rem;
+    --space-8: 0.5rem;
+    --space-12: 0.75rem;
+    --space-16: 1rem;
+    --space-24: 1.5rem;
+    --space-32: 2rem;
+    --space-48: 3rem;
+    --space-64: 4rem;
+    --space-80: 5rem;
+    --space-96: 6rem;
+}
