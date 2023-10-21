@@ -64,6 +64,47 @@
     margin: 0 auto;
 }
 
+/* Benefits */
+
+.benefits {
+    background-color: var(--color-medium);
+    margin-top: var(--space-8);
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-8);
+}
+
+.benefits__cards {
+    padding-top: var(--space-7);
+}
+
+.benefits__card {
+    background-color: var(--color-extralight);
+    border-radius: var(--radius-2);
+}
+
+/* About */
+
+.about {
+    margin-top: var(--space-8);
+}
+
+/* Started */
+
+.started {
+    background-color: var(--color-medium);
+    margin-top: var(--space-8);
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-8);
+}
+
+/* Site footer */
+
+.site-footer {
+    background-color: var(--color-extradark);
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-8);
+}
+
 /*
 ** Breakpoint: md 
 */
